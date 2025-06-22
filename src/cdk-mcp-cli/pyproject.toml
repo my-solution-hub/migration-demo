@@ -1,0 +1,11 @@
+[project]
+name = "cdk-mcp-cli"
+version = "0.1.0"
+description = "CLI to generate CDK code using MCP server with Bedrock LLM"
+dependencies = [
+    "mcp>=1.0.0",
+    "boto3",
+    "python-dotenv",
+    "pydantic",
+]
+requires-python = ">=3.10"

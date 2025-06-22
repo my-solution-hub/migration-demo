@@ -1,0 +1,5 @@
+#!/bin/bash
+# Migration CLI wrapper
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+uv run "$SCRIPT_DIR/migration_workflow.py" "$@"
